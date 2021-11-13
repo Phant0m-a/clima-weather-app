@@ -1,5 +1,5 @@
 name: clima
-description: A new Flutter application.
+description: Flutter app to show weather using their gps based location also offer search option.
 
 version: 1.0.0+1
 
@@ -12,7 +12,8 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   geolocator: ^3.0.1
-
+  http: ^0.13.4
+  flutter_spinkit: ^3.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
